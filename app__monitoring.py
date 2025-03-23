@@ -28,7 +28,7 @@ schema = Schema(
 
 # Initialisation de l'application Flask et du modèle de régression logistique
 app = Flask(__name__)
-model = pickle.load(open("Models/model(2).pkl", "rb"))  # Chargement du modèle de régression logistique
+model = pickle.load(open("model(2).pkl", "rb"))  # Chargement du modèle de régression logistique
 
 # Fonction de prédiction
 def model_pred(features):
