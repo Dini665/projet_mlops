@@ -39,7 +39,7 @@ def predict():
             ]]
         )
 
-        if prediction[0] == 1:
+        if prediction[0] == 1: 
             return render_template(
                 "index.html",
                 prediction_text=" Risque de défaut de paiement détecté !"
