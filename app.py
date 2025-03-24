@@ -5,7 +5,7 @@ import pandas as pd
 app = Flask(__name__)
 
 # Charger ton modèle de prédiction
-model = pickle.load(open("model(2).pkl", "rb"))
+model = pickle.load(open("model.pkl", "rb"))
 
 # Fonction de prédiction 
 def model_pred(features):

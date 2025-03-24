@@ -1,0 +1,15 @@
+artifact_uri: file:///c:/projet_mlops/mlruns/960205790585343406/1cd294f93b5a493982eb3b75f0c0e59e/artifacts
+end_time: 1742849015837
+entry_point_name: ''
+experiment_id: '960205790585343406'
+lifecycle_stage: active
+run_id: 1cd294f93b5a493982eb3b75f0c0e59e
+run_name: Run_2_LR
+run_uuid: 1cd294f93b5a493982eb3b75f0c0e59e
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1742849007917
+status: 3
+tags: []
+user_id: karriah dini

@@ -28,7 +28,7 @@ schema = Schema(
 
 # Initialisation de l'application Flask et du modèle de régression logistique
 app = Flask(__name__)
-model = pickle.load(open("model(2).pkl", "rb"))  # Chargement du modèle de régression logistique
+model = pickle.load(open("model.pkl", "rb"))  # Chargement du modèle de régression logistique
 
 # Fonction de prédiction
 def model_pred(features):
@@ -79,7 +79,7 @@ def predict():
             # Enregistrer les données dans Arize
             response = arize_client.log(
                 dataframe=dataframe,
-                model_id="model(2)",
+                model_id="model",
                 model_version="v1",
                 model_type=ModelTypes.SCORE_CATEGORICAL,  # Type de modèle de régression logistique (binaire)
                 environment=Environments.PRODUCTION,
